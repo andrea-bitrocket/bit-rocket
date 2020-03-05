@@ -1,13 +1,204 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@font-face {
+  font-family: "Axiforma Regular";
+  src: url("./assets/fonts/Axiforma/Axiforma-Regular.eot");
+  src: url("./assets/fonts/Axiforma/Axiforma-Regular.eot?#iefix")
+      format("embedded-opentype"),
+    url("./assets/fonts/Axiforma/Axiforma-Regular.woff") format("woff"),
+    url("./assets/fonts/Axiforma/Axiforma-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+  width: 100vw;
+  height: 100vh;
+  font-family: "Axiforma Regular", sans-serif !important;
+}
+
+header {
+  position: relative;
+  color: #ffffff;
+  width: 100%;
+  background-color: #cd2b37 !important;
+  height: calc(100vh - 80px);
+  display: flex !important;
+  align-items: center;
+}
+
+section {
+  padding: 10.2rem 0;
+}
+
+@media (min-width: 576px) {
+  section {
+    padding: 6.4rem 0;
+  }
+}
+
+footer {
+  color: #ffffff;
+  background-color: #cd2b37;
+  padding: 1rem;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  font-size: 10px;
+}
+
+h1 {
+  margin: 0 !important;
+}
+
+h2 {
+  margin: 0 !important;
+}
+
+p {
+  margin: 0 !important;
+}
+
+.overlay {
+  position: absolute;
+  background-color: #cd2b37;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+
+.header-logo {
+  font-weight: 300;
+  font-size: 40px;
+  line-height: 60px;
+}
+
+@media (min-width: 576px) {
+  .header-logo {
+    font-size: 70px;
+    line-height: 100px;
+  }
+}
+
+.bR-presentation {
+  font-size: 11px;
+  line-height: 23px;
+}
+
+@media (min-width: 576px) {
+  .bR-presentation {
+    font-size: 17px;
+    line-height: 30px;
+  }
+}
+
+button,
+button:active,
+button:focus {
+  outline: none !important;
+}
+
+a,
+a:hover,
+a:focus {
+  color: #ffffff !important;
+}
+
+.bR-justify-flex-end {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+}
+
+.bR-align-justify-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.bR-padding-left-right {
+  padding: 0 12px;
+}
+
+.bR-padding-top-bottom {
+  padding: 12px 0;
+}
+
+.bR-margin-left {
+  margin-left: 12px;
+}
+
+.bR-background-red {
+  background-color: #cd2b37;
+}
+
+.bR-center-text {
+  text-align: center;
+}
+
+.bR-right-text {
+  text-align: right;
+}
+
+.bR-left-text {
+  text-align: left;
+}
+
+.bR-display-flex {
+  display: flex;
+}
+
+.bR-display-inline-flex {
+  display: inline-flex;
+}
+
+.bR-button {
+  height: 50px;
+  background-color: #cd2b37 !important;
+  border: none !important;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  text-align: center;
+  border-radius: 5px;
+  color: #ffffff;
+  padding: 12px;
+  width: 150px;
+  text-align: center;
+}
+
+.bR-button:hover {
+  background-color: #ba2630 !important;
+}
+
+.bR-bold {
+  font-weight: bold;
+}
+
+.custom-navbar {
+  position: absolute;
+  background-color: #cd2b37;
+  padding: 20px !important;
+}
+
+.social-icon {
+  font-size: 30px;
+}
+
+@media (min-width: 576px) {
+  .social-icon {
+    font-size: 35px;
+  }
+}
+
+.coming-soon-text {
+  color: #cd2b37;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+@media (min-width: 576px) {
+  .coming-soon-text {
+    font-size: 25px;
+  }
 }
