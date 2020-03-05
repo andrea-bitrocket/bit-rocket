@@ -20,7 +20,7 @@ header {
   color: #ffffff;
   width: 100%;
   background-color: #cd2b37 !important;
-  height: calc(100vh - 80px);
+  height: 100vh;
   display: flex !important;
   align-items: center;
 }
@@ -175,9 +175,9 @@ a:focus {
 }
 
 .custom-navbar {
-  position: absolute;
   background-color: #cd2b37;
   padding: 20px !important;
+  z-index: 2;
 }
 
 .social-icon {
