@@ -1,5 +1,5 @@
 {
-  "homepage": "http://andrea-bitRocket.github.io/bit-rocket",
+  "homepage": "https://andrea-bitRocket.github.io/bit-rocket",
   "name": "bit-rocket",
   "version": "0.1.0",
   "private": true,
@@ -25,9 +25,9 @@
     "typescript": "~3.7.2"
   },
   "scripts": {
+    "start": "react-scripts start",
     "predeploy": "yarn run build",
     "deploy": "gh-pages -d build",
-    "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
