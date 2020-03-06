@@ -20,7 +20,7 @@ header {
   color: #ffffff;
   width: 100%;
   background-color: #cd2b37 !important;
-  height: 100vh;
+  height: calc(100vh - 80px);
   display: flex !important;
   align-items: center;
 }

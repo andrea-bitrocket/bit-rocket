@@ -33,7 +33,7 @@ export const Header: React.FC = (): JSX.Element => {
                 <p>
                   We are a team of proud nerds that believe in smart working
                 </p>{" "}
-                <p>and great team building events all around world.</p>
+                <p>and great team building events all around the world.</p>
               </h2>
             </Col>
             <Col xs={12} className="mx-auto bR-padding-top-bottom">
